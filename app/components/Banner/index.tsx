@@ -12,6 +12,7 @@ const Banner = () => {
             <div className='arrowOne'></div>
             <div className='radial-banner hidden lg:block'></div>
             <ModalVideo channel='youtube' isOpen={isOpen} videoId="Z3D6pGc7nHw" onClose={() => setOpen(false)} />
+
             <div className="mx-auto max-w-7xl pt-16 lg:pt-40 sm:pb-24 px-6">
 
                 <div className='height-work'>
