@@ -11,24 +11,24 @@ interface workdata {
 const workdata: workdata[] = [
     {
         imgSrc: '/images/Work/icon-one.svg',
-        heading: 'Create Account',
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this',
-        hiddenpara: 'standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...',
+        heading: 'Choose Politicians',
+        subheading: 'Select the politicians whose investment strategies you want to follow.',
+        hiddenpara: 'Pick from top lawmakers known for their successful investment strategies to guide your portfolio towards higher returns.',
     },
     {
         imgSrc: '/images/Work/icon-two.svg',
-        heading: 'Find your Credit',
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this',
-        hiddenpara: 'standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...',
+        heading: 'Allocate Your Money',
+        subheading: 'Decide how much of your portfolio to invest based on each politician’s strategy.',
+        hiddenpara: 'Strategically allocate your funds across different politicians to balance your portfolio and maximize potential gains.',
     },
     {
         imgSrc: '/images/Work/icon-three.svg',
-        heading: 'Exchange Currency',
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this',
-        hiddenpara: 'standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...',
+        heading: 'Diversify & Grow',
+        subheading: 'Invest in multiple lawmakers’ portfolios to reduce risk and grow your wealth.',
+        hiddenpara: 'Benefit from diversified investments across different political strategies to minimize risks while boosting returns.',
     },
-
 ]
+
 
 const Work = () => {
     return (
@@ -36,8 +36,8 @@ const Work = () => {
             <div className='mx-auto max-w-7xl mt-16 px-6 mb-20 relative'>
                 <div className="radial-bgone hidden lg:block"></div>
                 <div className='text-center mb-14'>
-                    <h3 className='text-offwhite text-3xl md:text-5xl font-bold mb-3'>How it work</h3>
-                    <p className='text-bluish md:text-lg font-normal leading-8'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br /> Lorem Ipsum has been the industry standard dummy text ever.</p>
+                    <h3 className='text-offwhite text-3xl md:text-5xl font-bold mb-3'>How it works</h3>
+                    <p className='text-bluish md:text-lg font-normal leading-8'>Discover how our platform helps you diversify your investments by following the proven <br /> strategies of top lawmakers. Increase your returns while minimizing risks with ease.</p>
                 </div>
 
                 <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-x-5 mt-32'>
