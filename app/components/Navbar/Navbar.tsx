@@ -14,7 +14,7 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: 'Home', href: '#home-section', current: false },
-    { name: 'Exchange', href: '#exchange-section', current: false },
+    { name: 'Demo', href: '#exchange-section', current: false },
     { name: 'Features', href: '#features-section', current: false },
     { name: 'FAQ', href: '#faq-section', current: false },
 ]
@@ -37,18 +37,10 @@ const Navbar = () => {
                             {/* LOGO */}
 
                             <div className="flex flex-shrink-0 items-center">
-                                {/* <img
-                                    className="block h-10 w-20px lg:hidden"
-                                    src={'/images/Logo/logo.svg'}
-                                    alt="Crypto-Logo"
-                                /> */}
+                                
                                 <h1  className="block h-10 w-20px lg:hidden text-white font-bold" >Outvest</h1>
-                                {/* <img
-                                    className="hidden h-48px w-48px lg:block"
-                                    src={'/images/Logo/logo.svg'}
-                                    alt="Crypto-Logo"
-                                /> */}
-<h1 className="hidden lg:block text-white font-black" style={{ fontSize: '2rem' }}>Outvest</h1>
+                               
+                          <h1 className="hidden lg:block text-white font-black" style={{ fontSize: '2rem' }}>Outvest</h1>
 
                             </div>
 
@@ -72,7 +64,7 @@ const Navbar = () => {
                                 </div>
 
                             </div>
-                            <button className='hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 navbutton text-white'>Connect Wallet</button>
+                            <button className='hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 navbutton text-white'>Explore</button>
                             {/* <Contactusform /> */}
                         </div>
 

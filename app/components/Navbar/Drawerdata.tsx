@@ -9,7 +9,7 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: 'Home', href: '#home-section', current: false },
-    { name: 'Exchange', href: '#exchange-section', current: false },
+    { name: 'Demo', href: '#exchange-section', current: false },
     { name: 'Features', href: '#features-section', current: false },
     { name: 'FAQ', href: '#faq-section', current: false },
 ]
@@ -39,7 +39,7 @@ const Data = () => {
                         ))}
                         <div className="mt-4"></div>
                         <button className="bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded">
-                            Connect Wallet
+                            Explore
                         </button>
                     </div>
                 </div>
