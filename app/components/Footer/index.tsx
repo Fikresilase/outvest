@@ -17,7 +17,7 @@ const products: ProductType[] = [
   {
     id: 1,
     section: "Useful Links",
-    link: ['Home', 'Exchange', 'Features', 'FAQ'],
+    link: ['Home', 'Demo', 'Features', 'FAQ'],
   }
 ]
 
@@ -39,12 +39,16 @@ const footer = () => {
           {/* COLUMN-1 */}
 
           <div className='col-span-6'>
-            <img
+            <h1
+            className="block h-12 w-20px mb-4 text-white font-bold"
+            >Outvest</h1>
+            {/* <img
               className="block h-12 w-20px mb-4"
               src={'/images/Logo/logo.svg'}
               alt="Crypto-Logo"
-            />
-            <h3 className='text-lightblue text-sm font-normal leading-9 mb-4 lg:mb-16'> Cryptocurrency is a type of virtual currency that uses cryptography to secure transactions that are digitally recorded on a distributed ledger, such as a blockchain.</h3>
+            /> */}
+            <h3 className='text-lightblue text-sm font-normal leading-9 mb-4 lg:mb-16'> Political investment diversification allows you to allocate funds based on the financial strategies of top lawmakers, leveraging their insights to secure diversified and informed investment opportunities.</h3>
+
             <div className='flex gap-4'>
               {socialLinks.map((items, i) => (
                 <Link href={items.href} key={i}><img src={items.imgsrc} alt={items.imgsrc} className='footer-icons' /></Link>
@@ -69,9 +73,9 @@ const footer = () => {
 
           <div className="col-span-4">
             <h3 className="text-white text-xl font-medium mb-9">Contact Us</h3>
-            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/number.svg'} alt="number-icon" width={20} height={20} />(406) 555-012</h4>
-            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/email.svg'} alt="email-icon" width={20} height={20} />tim.jennings@example.com</h4>
-            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/address.svg'} alt="address-icon" width={20} height={20} />Elgin St. Celina, Delaware 10299</h4>
+            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/number.svg'} alt="number-icon" width={20} height={20} />+251940259534</h4>
+            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/email.svg'} alt="email-icon" width={20} height={20} />shitubilbila@gmail.com</h4>
+            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/address.svg'} alt="address-icon" width={20} height={20} /> Addis Ababa, Ethiopia</h4>
           </div>
 
         </div>
@@ -80,7 +84,7 @@ const footer = () => {
       {/* All Rights Reserved */}
 
       <div className='py-8 px-4 border-t border-t-lightblue'>
-        <h3 className='text-center text-offwhite'>@2023 - All Rights Reserved by <Link href="https://adminmart.com/" target="_blank"> Adminmart.com</Link></h3>
+        <h3 className='text-center text-offwhite'>@2024 - Developed by <Link href="#" target="_blank">Fikresilase w. Abebayew</Link></h3>
       </div>
 
     </div>
