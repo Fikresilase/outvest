@@ -11,17 +11,17 @@ const featuresdata: featuresdata[] = [
     {
         imgSrc: '/images/Features/featureOne.svg',
         heading: 'Secure storage',
-        subheading: 'We lake data security and privacy very seriously',
+        subheading: 'Completly secure and private investment',
     },
     {
         imgSrc: '/images/Features/featureTwo.svg',
         heading: 'Free to use',
-        subheading: 'Top notch crypto portfolio traking at no cost',
+        subheading: 'Top notch investment portfolio building at no cost',
     },
     {
         imgSrc: '/images/Features/featureThree.svg',
         heading: 'Real-time price data',
-        subheading: 'Updating 24/7 using price data form the biggest exchanges',
+        subheading: 'Updating 24/7 data form the every lawmaker',
     },
 ]
 
@@ -34,7 +34,7 @@ const Features = () => {
                 <div>
                     <h3 className="feature-font text-lg font-semibold mb-4 text-center md:text-start">FEATURES</h3>
                     <h2 className="text-offwhite text-3xl lg:text-5xl font-semibold leading-snug mb-6 text-center md:text-start">The smartest way of stock trading platform</h2>
-                    <p className="lg:text-lg font-normal text-bluish text-center md:text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</p>
+                   
                 </div>
                 {/* Column-2 */}
                 <div>
