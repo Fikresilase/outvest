@@ -3,7 +3,7 @@ import Image from "next/image";
 interface table {
     index: number;
     name: string;
-    price: number;
+    company: string;
     change: number;
     cap: number;
     action: string;
@@ -13,36 +13,36 @@ interface table {
 const tableData: table[] = [
     {
         index: 1,
-        name: "Bitcoin(BTC)",
-        imgSrc: '/images/Table/bitcoin.svg',
-        price: 16458.23,
+        name: "Nancy Pelosi",
+        imgSrc: '/images/Table/bitcoin.jpg',
+        company: "Apple Inc.",
         change: 3.96,
         cap: 16828.25,
         action: "Buy",
     },
     {
         index: 2,
-        name: "Ethereum(ETH)",
-        imgSrc: '/images/Table/cryptoone.svg',
-        price: 16458.23,
+        name: "Mitch McConnell",
+        imgSrc: '/images/Table/cryptoone.jpg',
+        company: "Microsoft Corp.",
         change: 3.96,
         cap: 16828.80,
         action: "Buy",
     },
     {
         index: 3,
-        name: "Tether(USDT)",
-        imgSrc: '/images/Table/cryptothree.svg',
-        price: 16458.23,
+        name: "Alexandria Ocasio-Cortez",
+        imgSrc: '/images/Table/cryptothree.jpg',
+        company: "Amazon.com Inc.",
         change: -3.96,
         cap: 16828.30,
         action: "Sell",
     },
     {
         index: 4,
-        name: "Binance Coin(BNB)",
-        imgSrc: '/images/Table/cryptotwo.svg',
-        price: 16458.23,
+        name: "Kevin McCarthy",
+        imgSrc: '/images/Table/cryptotwo.jpg',
+        company: "Alphabet Inc.",
         change: -3.96,
         cap: 16828.42,
         action: "Sell",
@@ -60,9 +60,9 @@ const Table = () => {
                             <tr className="text-white bg-darkblue rounded-lg">
                                 <th className="px-4 py-4 font-normal">#</th>
                                 <th className="px-4 py-4 text-start font-normal">NAME</th>
-                                <th className="px-4 py-4 font-normal">PRICE</th>
+                                <th className="px-4 py-4 font-normal">COMPANY</th>
                                 <th className="px-4 py-4 font-normal">CHANGE 24H</th>
-                                <th className="px-4 py-4 font-normal">MARKET CAP</th>
+                                <th className="px-4 py-4 font-normal">Amount</th>
                                 <th className="px-4 py-4 font-normal">ACTION</th>
                             </tr>
                         </thead>
@@ -71,7 +71,7 @@ const Table = () => {
                                 <tr key={i} className="border-b border-b-darkblue">
                                     <td className="px-4 py-6 text-center text-white">{items.index}</td>
                                     <td className="px-4 py-6 text-center text-white flex items-center justify-start gap-5 "><Image src={items.imgSrc} alt={items.imgSrc} height={50} width={50} />{items.name}</td>
-                                    <td className="px-4 py-6 text-center text-white">${items.price.toLocaleString()}</td>
+                                    <td className="px-4 py-6 text-center text-white">{items.company}</td>
                                     <td className={`px-4 py-6 text-center ${items.change < 0 ? 'text-red' : 'text-green'} `}>{items.change}%</td>
                                     <td className="px-4 py-6 text-center text-white">${items.cap.toLocaleString()}</td>
                                     <td className={`px-4 py-6 text-center ${items.action === 'Buy' ? 'text-green' : 'text-red'}`}>

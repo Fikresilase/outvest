@@ -33,7 +33,7 @@ const Features = () => {
                 {/* Column-1 */}
                 <div>
                     <h3 className="feature-font text-lg font-semibold mb-4 text-center md:text-start">FEATURES</h3>
-                    <h2 className="text-offwhite text-3xl lg:text-5xl font-semibold leading-snug mb-6 text-center md:text-start">The most trusted cryptocurrency platform</h2>
+                    <h2 className="text-offwhite text-3xl lg:text-5xl font-semibold leading-snug mb-6 text-center md:text-start">The smartest way of stock trading platform</h2>
                     <p className="lg:text-lg font-normal text-bluish text-center md:text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</p>
                 </div>
                 {/* Column-2 */}
