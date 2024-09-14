@@ -1,5 +1,4 @@
 
-
 const Simple = () => {
     return (
         <div className="simple-bg relative">

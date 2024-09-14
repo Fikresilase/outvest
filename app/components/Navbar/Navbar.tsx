@@ -37,16 +37,19 @@ const Navbar = () => {
                             {/* LOGO */}
 
                             <div className="flex flex-shrink-0 items-center">
-                                <img
+                                {/* <img
                                     className="block h-10 w-20px lg:hidden"
                                     src={'/images/Logo/logo.svg'}
                                     alt="Crypto-Logo"
-                                />
-                                <img
+                                /> */}
+                                <h1  className="block h-10 w-20px lg:hidden text-white font-bold" >Outvest</h1>
+                                {/* <img
                                     className="hidden h-48px w-48px lg:block"
                                     src={'/images/Logo/logo.svg'}
                                     alt="Crypto-Logo"
-                                />
+                                /> */}
+<h1 className="hidden lg:block text-white font-black" style={{ fontSize: '2rem' }}>Outvest</h1>
+
                             </div>
 
                             {/* LINKS */}
